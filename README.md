@@ -1,3 +1,3 @@
-# jamesdean595.github.io
+# alexcardazzi.github.io
 
 Welcome to my website repository.

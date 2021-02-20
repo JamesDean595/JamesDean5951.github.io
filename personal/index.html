@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alexander Cardazzi</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" href="/pictures_of_me/espresso.png">
+		<style>
+			img {vertical-align: middle; display: block; margin-left: auto; margin-right: auto;}
+			
+			.fa:hover {
+			  opacity: 0.7;
+			}
+			
+			* {
+			  box-sizing: border-box;
+			}
+
+			.img-container {
+			  float: left;
+			  width: 35.00%;
+			  padding: 5px;
+			  position: relative;
+			  transition: .72s ease;
+			}
+
+			.clearfix::after {
+			  content: "";
+			  clear: both;
+			  display: table;
+			}
+			
+			/* MUSTACHE */
+			.img-container .hoverImg2 {
+			  position: absolute;
+			  left: 38.75%;
+			  bottom: 41.48%;
+			  display: none;
+			  width: 20%;
+			  opacity: 0;
+			}
+			
+			/* Shades */
+			.img-container .hoverImg1 {
+			  position: absolute;
+			  left: 54.9%;
+			  bottom: 53.4%;
+			  display: none;
+			  width: 12.5%;
+			  opacity: 0;
+			}
+
+			
+			.img-container:hover .hoverImg2 {
+			  opacity: 0.72;
+			  display: block;
+			}
+			
+			.img-container:hover .hoverImg1 {
+			  opacity: 0.72;
+			  display: block;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/alexCardazziCV.pdf" target="_blank" rel="noreferrer noopener">CV</a></li>
+			<li><a href="/research">Research</a></li>
+			<li><a href="/teaching">Teaching</a></li>
+			<li><a href="/media">In the Media</a></li>
+			<li><a href="/using-r">Using R</a></li>
+			<li><a href="/personal">Personal</a></li>
+    		</ul>
+		</nav>
+		
+		
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Alexander Cardazzi
+				<a href="mailto:alex.cardazzi@gmail.com" class="fa fa-envelope"></a>
+				<a href="https://twitter.com/ACardazzi" class="fa fa-twitter"></a>
+			</h1>
+			
+			<h2>Ph.D. Student in Economics | West Virginia University</h2>
+			
+			<ul style="list-style-type:none;">
+				<li><a href="https://twitter.com/ACardazzi">Twitter</a>: Some Economics Talk, Mostly Basketball Talk</li>
+				<li><a href="mailto:ajc0056@mix.wvu.edu">Current University Email</a>: Some Basketball Talk, Mostly Economics Talk</li>
+				<br/>
+				<li>Check out my <a href="/basketball">twitter threads</a> about the NBA!</li>
+				<br/>
+				<li><i style="text-width:70%;">Hover over images below for a surprise...</i></li>
+			</ul>
+				
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		
+		<div class="clearfix">
+		  <div class="img-container">
+			  <div class="imageInn">
+			    <img src="/pictures_of_me/alex_sf.jpg" style="width:100%">
+			    <img src="/pictures_of_me/shades2.gif" class = "hoverImg1">
+			  </div>
+		  </div>
+		  <div class="img-container">
+			  <!-- <img src="/pictures_of_me/alex_bk.jpg" style="width:100%"> -->
+			  <!-- <div class = "hide_me"><img src="https://media.giphy.com/media/dCXkFlKsDo0rG3vSJp/source.gif"></div> -->
+			  
+			  <div class="imageInn">
+			    <img src="/pictures_of_me/alex_bk.jpg" style="width:100%" alt="Default Image">
+			    <!--<img src="https://media.giphy.com/media/dCXkFlKsDo0rG3vSJp/source.gif" class = "hoverImg">-->
+			    <img src="/pictures_of_me/clipart-mustache-gif-transparent-original.gif" class = "hoverImg2">
+			  </div>			  
+			  
+		  </div>
+		</div>
+		
+		<footer>
+    		<ul>
+        		<li><a href="mailto:alex.cardazzi@gmail.com">e-mail</a></li>
+        		<li><a href="https://scholar.google.com/citations?user=NUkcCngAAAAJ&hl=en&oi=ao"> Google Scholar</a></li>
+			<li><a href="https://twitter.com/ACardazzi?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @ACardazzi</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+		</ul>
+		</footer>
+	</body>
+</html>
